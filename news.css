@@ -1,0 +1,273 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+:root{
+    --box-shadow: rgba(0,0,0,0.16) 0px 1px 4px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.outer-wrap{
+ width: 100%;
+ min-height: 100vh;
+ background-color: #F5F7FA;
+ padding: 30px;
+}
+
+.inner-wrap{
+    max-width:1200px;
+    margin: auto;
+}
+
+.heading{
+ margin: 30px auto;
+ background-color: rgb(212, 47, 47);
+ border-radius: 10px;
+}
+.heading .title{
+    font-size: 30px;
+    color: #000000;
+    font-weight: 500;
+    text-align: center;
+}
+.heading .subtitle{
+    font-size: 20px;
+    color: #000;
+    font-weight: 300;
+    text-align: center;
+}
+.category{
+    margin: 10px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.category span{
+    padding: 10px;
+    border-radius: 3px;
+    margin: 5px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+
+}
+.category span:hover{
+    background-color: #EAEBEF;  
+}
+.category span.active{
+    background-color: #0D479A !important;
+    color: #FFFFFF;
+}
+.card{
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    display: flex;
+}
+
+.card .image{
+    margin: auto;
+}
+.card .image img{
+    justify-content: center;
+    max-width: 300px;
+    border: 1px solid #EFEFEF;
+    border-radius: 5px;
+}
+
+.card .information{
+    flex-grow: 1;
+    padding: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 18px;
+
+}
+.card .title{
+font-size: 20px;
+font-weight: 500;
+color: #1A1C20;
+}
+.card .description{
+    color:#5D5F63;
+    margin: 5px 0px;
+}
+.card .time{
+  color: #5D5F63;
+}
+.card .other{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 10px;
+}
+.card .source{
+ background-color: #2666CF;
+ color: #FFFFFF;
+ padding: 5px 10px;
+ border-radius: 5px;
+
+}
+.card .url{
+background-color: #04AA6D;
+color: #FFFFFF;
+padding: 5px 10px;
+border: 0px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+@media (max-width:800px) {
+    .card {
+        flex-wrap: wrap;
+    }
+    .card .information{
+        margin-left: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
